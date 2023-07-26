@@ -13,7 +13,7 @@ class KeitaroClickApiResult
         public readonly ?string $contentType = null,
         public readonly ?int $cookiesTtlHours = null, // key "cookies_ttl"
         public readonly array $cookies = [],
-        public readonly ?string $uniquenessCookie = null,
+        public readonly ?array $uniquenessCookie = null,
         public readonly ?bool $uniquenessCampaign = null,
         public readonly ?bool $uniquenessFlow = null,
         public readonly ?bool $uniquenessGlobal = null,
